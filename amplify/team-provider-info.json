@@ -1,0 +1,25 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-kirayabook-dev-190615-authRole",
+      "UnauthRoleArn": "arn:aws:iam::327732307878:role/amplify-kirayabook-dev-190615-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::327732307878:role/amplify-kirayabook-dev-190615-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-kirayabook-dev-190615-deployment",
+      "UnauthRoleName": "amplify-kirayabook-dev-190615-unauthRole",
+      "StackName": "amplify-kirayabook-dev-190615",
+      "StackId": "arn:aws:cloudformation:ap-south-1:327732307878:stack/amplify-kirayabook-dev-190615/f54ffa40-6ba4-11eb-81c0-02a0212f641c",
+      "AmplifyAppId": "drw5h72gscx16"
+    },
+    "categories": {
+      "auth": {
+        "kirayabookbc1c4bdf": {
+          "userPoolId": "ap-south-1_RyqJO6EiU",
+          "userPoolName": "kirayabook",
+          "webClientId": "4m40g4jhv1nksvforibvruned7",
+          "nativeClientId": "4m40g4jhv1nksvforibvruned7"
+        }
+      }
+    }
+  }
+}

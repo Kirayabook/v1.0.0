@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "kirayabook",
+    "slug": "kirayabook",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+
+    "android": {
+      "package": "com.kirayabook.kirayabook",
+      "versionCode": 2,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ccc"
+      },
+      "permissions": ["CAMERA", "READ_CONTACTS", "READ_EXTERNAL_STORAGE", "WRITE_EXTERNAL_STORAGE"]
+
+    }
+  }
+}

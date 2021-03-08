@@ -1,0 +1,29 @@
+type Building @model {
+  id: ID!
+  userId: String!
+  buildingName: String!
+  imageUrl: String
+}
+
+type Unit @model {
+  id: ID!
+  userId: String!
+  buildingId: String!
+  name: String
+  phone: String
+  gender: String
+  date: String!
+  price: Int!
+  email: String
+  advanceBalance: Int
+  nextPayment: String
+  dues: Int
+  details: [Details]
+}
+
+type Details {
+  date: String
+  paid: Boolean
+  status: String
+  unit: Unit
+}
